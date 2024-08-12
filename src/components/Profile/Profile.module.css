@@ -6,44 +6,52 @@
   text-align: center;
   width: 280px;
 }
+
 .containerUserInfo {
-  padding: 16px;
+  padding: 12px;
 }
+
 .img {
   border: none;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   background-color: black;
 }
+
 .name {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   margin: 8px;
 }
+
 .tag {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   margin: 4px;
   color: gray;
 }
+
 .location {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   margin: 4px;
   color: gray;
 }
+
 .list {
-  display: flex;
+  box-sizing: border-box;
+  width: 100%;
   padding: 0;
   margin: 0;
-  justify-content: center;
+
   list-style: none;
+  display: inline-flex;
+
+  font-size: 18px;
 }
+
 .stats {
   display: inline-block;
   padding: 4px;
@@ -51,6 +59,19 @@
   background-color: rgb(188, 183, 183);
   width: 100%;
 }
+
+.stats:last-child {
+  border-end-end-radius: 7px;
+}
+
+.stats:first-child {
+  border-end-start-radius: 7px;
+}
+
 p {
   margin: 4px;
+}
+
+.statsNumbers {
+  font-weight: 700;
 }
