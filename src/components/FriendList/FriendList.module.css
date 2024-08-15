@@ -1,11 +1,14 @@
 .list {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    justify-content: space-between;
+    gap: 16px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 25px;
+    margin-top: 36px;
+    margin-bottom: 0;
     list-style: none;
+    padding: 0;
   }
   .item {
     width: 100px;
@@ -13,13 +16,4 @@
     border-radius: 15px;
     border: 2px solid rgb(0, 0, 0);
   }
-  .name {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .online {
-    color: rgb(25, 147, 39);
-  }
-  .offline {
-    color: rgb(255, 0, 0);
-  }
+ 

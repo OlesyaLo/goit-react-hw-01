@@ -1,0 +1,19 @@
+
+.transactionsTable {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    width: 600px;
+    margin-top: 36px;
+    padding: 0;
+}
+.tableHeader {
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: calc(100% / 3);
+}
