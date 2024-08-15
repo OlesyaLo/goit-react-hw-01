@@ -8,6 +8,7 @@
     margin-top: 36px;
     padding: 0;
 }
+
 .tableHeader {
     padding: 4px;
     text-align: center;
@@ -16,4 +17,12 @@
     background-color: black;
     color: white;
     width: calc(100% / 3);
+}
+
+.tableRow:nth-child(2n) {
+    background-color: white;
+    }
+    
+.tableRow:nth-child(2n+1) {
+background-color: rgb(203, 201, 201);
 }

@@ -11,11 +11,11 @@ export default function TransactionHistory ({items}) {
             <th className={css.tableHeader}>Currency</th>
             </tr>
         </thead>
-        <tbody key={items.id}>
+        <tbody>
            {items.map((item) => (
-            <>
+            <tr key={item.id} className={css.tableRow}>
             <TransactionHistoryItem items={item} />
-            </>
+            </tr>
            )
            )}
         </tbody>

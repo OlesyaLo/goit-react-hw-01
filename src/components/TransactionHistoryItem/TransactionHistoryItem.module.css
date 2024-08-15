@@ -6,12 +6,4 @@
     text-align: center;
     margin: 0 auto;
     text-transform: capitalize;
-    
-    
-}
-.tableRow:nth-child(2n) {
-    background-color: white;
-    }
-.tableRow:nth-child(2n+1) {
-background-color: rgb(203, 201, 201);
 }
